@@ -1,0 +1,125 @@
+.navbar
+{
+    background-color:  rgb(22, 34, 46);
+}
+.nav-link
+{
+    color:white;
+}
+.nav-link:hover
+{
+    color:yellow;
+    transition:all 0.5s ease;
+}
+body{
+    background-color: rgb(39,41,53);
+}
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-toggler.navbar-toggler {
+    border-color:rgb(255, 255, 0);
+  } 
+  #sign-button
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    padding:2px 5px;
+    height:70%;
+    width:100%;
+    border:none;
+    outline:none;
+    border-radius:4px;
+    background-color:#ff6432;
+    color:white;
+}
+#sign-button:hover{
+    background:#456200;
+    transition: all 0.5s ease;
+}
+.nav-item a
+{
+    text-align: center;  
+}
+
+
+/*body*/
+.profile
+{
+    width:400px;
+    height:300px;
+    padding-left:100px;
+}
+.content-font a
+ {
+      text-decoration: none;
+     color:aqua;
+     font-size:18px;
+ }
+ .content-font a:hover
+ {
+     color:yellow;
+     transition:all 0.5s ease;
+     font-size:18px;
+ }
+ .content-font{
+    color:#fff;
+    padding-left:100px;
+    font-size:18px;
+    font-weight: 800;
+    font-family: 'Montserrat';
+ }
+ #context
+ {
+     padding-left:100px;
+     color:#fff;
+     font-family: 'Montserrat';
+     font-weight:800;
+     text-align: justify;
+     max-width: 97%;
+ }
+ .skill img
+ {   
+     width:80px;
+     height: 80px;
+     
+ }
+ .skill
+ {
+     
+     color: aqua;
+     font-family:'Montserrat';
+     padding-top: 10%;
+     text-align: center;
+     font-weight: 800;
+     
+
+ }
+ .skill-head
+ {
+     text-align: center;
+     font-family:'Montserrat';
+     color:white;
+     font-weight: 800;
+     font-size: 30px;
+     padding-top: 2%;
+}
+.skill:hover
+{
+    transform: scale(1.2);
+    color: white;
+    transition: all 0.65s ease-in-out;
+}
+footer
+{
+    padding:25px;
+}
+.spacing
+{
+    margin-bottom: 50px;
+}
+
+
